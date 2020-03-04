@@ -15,7 +15,7 @@ let femaleCount = 0;
 
 
 for (let step = 0; step < 734; step++) {
-   if (records[step].Alignment === 'good' && records[step].Gender === 'Female' && records[step].Publisher === 'Marvel Comics') {
+   if (records[step].Alignment === 'bad' && records[step].Gender === 'Female' && records[step].Publisher === 'Marvel Comics') {
     console.log(records[step]);
     console.log();
    }
